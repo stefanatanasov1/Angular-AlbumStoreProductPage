@@ -13,7 +13,8 @@ export class ProductService {
 }
 
  function getAlbum(id: number) {
-   
+     
+  return this._http.get(this._albumUrl)
  }
 
 
